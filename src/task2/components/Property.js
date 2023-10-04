@@ -21,6 +21,7 @@ function Property() {
           <div class="my-10 flex justify-center">
             <Cards
               id={object.id}
+              img={object.img}
               loc={object.loc}
               roomNo={object.roomNo}
               bedNo={object.bedNo}

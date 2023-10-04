@@ -39,6 +39,7 @@ function Main() {
     return (
       <Cards
         id={hotel.id}
+        img={hotel.img}
         loc={hotel.loc}
         roomNo={hotel.roomNo}
         bedNo={hotel.bedNo}

@@ -77,6 +77,7 @@ navigate(`/page/${page}`);
         drive={car.drive}
         mileage={car.mileage}
         fuel={car.fuel}
+        img={car.img}
       />
     );
   }

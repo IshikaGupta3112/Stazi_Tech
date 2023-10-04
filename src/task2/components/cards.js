@@ -1,5 +1,3 @@
-import react from "react";
-import hotel3 from "../assets/img/hotel3.jpg";
 import location from "../assets/icons/loaction.svg";
 import bath from "../assets/icons/bath.svg";
 import bed from "../assets/icons/bed.svg";
@@ -18,7 +16,7 @@ function Cards(props) {
         <button class="relative bg-white text-dark-blue font-semibold p-2 text-sm left-60 top-4 text-center rounded-full">
           <img src={heart}></img>
         </button>
-        <img src={hotel3} class="object-cover rounded-xl -my-8"></img>
+        <img src={props.img} class="object-cover rounded-xl -my-8"></img>
       </div>
       <div class="mx-4 my-3">
         <div class="flex items-center">
