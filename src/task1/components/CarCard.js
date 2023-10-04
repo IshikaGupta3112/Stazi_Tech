@@ -3,13 +3,12 @@ import wheel from "../assets/icons/wheel.svg";
 import fuel from "../assets/icons/fuel.svg";
 import meter from "../assets/icons/meter.svg";
 import heart from "../assets/icons/heart.svg";
-import carImg from "../assets/img/car.jpg";
 
 function CarCard(props) {
   return (
     <div class="bg-blue-grey shadow-md border border-gray-100 rounded-xl py-1 w-4xl px-1 box-border flex-col">
       <div class="box-border mb-4" id={props.id}>
-        <img src={carImg} class="object-cover rounded-xl"></img>
+        <img src={props.img} class="object-cover rounded-xl"></img>
       </div>
       <div class="mx-4 my-3">
         <div class="my-1 flex justify-between">
