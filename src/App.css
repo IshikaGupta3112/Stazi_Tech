@@ -1,19 +1,19 @@
-body{
-    background-color: #E6E5FF40;
+.normal {
+  background-color: #c7c3f630;
+  padding: 0.5rem 1.25rem;
+  border-radius: 1.5rem;
+  margin-right: 0.75rem;
+  font-weight: 600;
 }
-
-.normal{
-    background-color: #C7C3F630;
-    padding:0.5rem 1.25rem;
-    border-radius:1.5rem;
-    margin-right: 0.75rem;
-    font-weight: 600;
+.active {
+  background-color: #2b1aea;
+  padding: 0.5rem 1.25rem;
+  border-radius: 1.5rem;
+  margin-right: 0.75rem;
+  font-weight: 600;
+  color: white;
 }
-.active{
-    background-color: #2B1AEA;
-    padding:0.5rem 1.25rem;
-    border-radius:1.5rem;
-    margin-right: 0.75rem;
-    font-weight: 600;
-    color:white;   
+.Linkactive{
+  background-color: #2b1aea;
+  color: white;
 }
